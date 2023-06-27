@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "DashNative",
+    "slug": "DashNative",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "DashNative"
+}
