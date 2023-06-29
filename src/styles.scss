@@ -1,0 +1,103 @@
+$offWhite: #fcfcfc;
+$lightPurple: #994be3;
+$deepPurple: #4a1e9e;
+$lavender: #ddcbff;
+$yellow: #e2bf2b;
+$weirdBeige: #9e861e;
+$darkGrey: #404040;
+$heartyBlue: #11009E;
+$cornflower: #4942E4;
+$thursday: #8696FE;
+$newLavender: #C4B0FF;
+
+:export {
+    offWhite: $offWhite;
+    lightPurple: $lightPurple;
+    deepPurple: $deepPurple;
+    lavender: $lavender;
+    yellow: $yellow;
+    weirdBeige: $weirdBeige;
+    darkGrey: $darkGrey;
+    heartyBlue: $heartyBlue;
+    cornflower: $cornflower;
+    thursday: $thursday;
+    newLavender: $newLavender;
+}
+
+.button {
+    margin: 5px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: $cornflower;
+}
+
+.buttonTitle {
+    color: $offWhite;
+}
+
+.headerTitle {
+    color: $heartyBlue;
+}
+
+.headerLeftTitle {
+    color: $heartyBlue;
+    font-size: 15;
+    font-weight: bold;
+}
+
+.headerLeftIcon {
+    margin: 0 5px;
+    // width: 15px;
+    // aspect-ratio: 1;
+    // height: 20;
+    // font-size: 15;
+}
+
+.container {
+    // padding-top: 40px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.columnContainer {
+    @extend .container;
+    align-self: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.column {
+    // width: 50%;
+}
+
+.input {
+    // background-color: black;
+    // color: $offWhite;
+    border-width: 2px;
+    border-color: $lightPurple;
+    width: 150px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.checkBoxContainer {
+    background-color: transparent;
+    border-width: 0px;
+}
+
+.checkBox {
+    background-color: $offWhite;
+    // color: $lightPurple;
+}
+
+.label {
+    font-size: 20;
+    font-weight: bold;
+    margin-top: 10px;
+    color: $darkGrey;
+}
