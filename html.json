@@ -1,0 +1,1864 @@
+[
+    {
+        "$$length": 2,
+        "0": {
+            "_nsMap": {},
+            "attributes": {
+                "0": [Attr
+                ],
+                "_ownerElement": [Circular
+                ],
+                "length": 1
+            },
+            "childNodes": {
+                "0": [Element
+                ],
+                "1": [Element
+                ],
+                "length": 2
+            },
+            "columnNumber": 146,
+            "firstChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 177,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "p",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "p",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "p"
+            },
+            "lastChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 292,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "ul",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "ul",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "ul"
+            },
+            "lineNumber": 8,
+            "localName": "div",
+            "namespaceURI": "http://www.w3.org/1999/xhtml",
+            "nextSibling": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 8784,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "a",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "a",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Circular
+                ],
+                "tagName": "a"
+            },
+            "nodeName": "div",
+            "ownerDocument": {
+                "_inc": 1297,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 165,
+                "firstChild": [ProcessingInstruction
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 5,
+                "localName": "div",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "div",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "div"
+            },
+            "previousSibling": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 80,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "a",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Circular
+                ],
+                "nodeName": "a",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "a"
+            },
+            "tagName": "div"
+        },
+        "1": {
+            "_nsMap": {},
+            "attributes": {
+                "0": [Attr
+                ],
+                "_ownerElement": [Circular
+                ],
+                "length": 1
+            },
+            "childNodes": {
+                "0": [Element
+                ],
+                "1": [Element
+                ],
+                "length": 2
+            },
+            "columnNumber": 8850,
+            "firstChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 8881,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "p",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "p",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "p"
+            },
+            "lastChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 8986,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "ul",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "ul",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "ul"
+            },
+            "lineNumber": 8,
+            "localName": "div",
+            "namespaceURI": "http://www.w3.org/1999/xhtml",
+            "nextSibling": null,
+            "nodeName": "div",
+            "ownerDocument": {
+                "_inc": 1297,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 165,
+                "firstChild": [ProcessingInstruction
+                ],
+                "lastChild": [Circular
+                ],
+                "lineNumber": 5,
+                "localName": "div",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "div",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "div"
+            },
+            "previousSibling": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 8784,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "a",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Circular
+                ],
+                "nodeName": "a",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "a"
+            },
+            "tagName": "div"
+        },
+        "_inc": 1297,
+        "_node": {
+            "_inc": 1297,
+            "childNodes": {
+                "0": [ProcessingInstruction
+                ],
+                "1": [Element
+                ],
+                "length": 2
+            },
+            "doctype": null,
+            "documentElement": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 1,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 2,
+                "localName": "html",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "html",
+                "ownerDocument": [Circular
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [ProcessingInstruction
+                ],
+                "tagName": "html"
+            },
+            "documentURI": undefined,
+            "firstChild": {
+                "columnNumber": 1,
+                "data": "version=\"1.0\" encoding=\"UTF-8\"",
+                "lineNumber": 1,
+                "nextSibling": [Element
+                ],
+                "nodeValue": "version=\"1.0\" encoding=\"UTF-8\"",
+                "ownerDocument": [Circular
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "xml",
+                "target": "xml"
+            },
+            "implementation": {
+                "_features": [Object
+                ]
+            },
+            "lastChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 1,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 2,
+                "localName": "html",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "html",
+                "ownerDocument": [Circular
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [ProcessingInstruction
+                ],
+                "tagName": "html"
+            }
+        },
+        "_refresh": [Function anonymous
+        ]
+    },
+    {
+        "0": {
+            "_nsMap": {},
+            "attributes": {
+                "0": [Attr
+                ],
+                "_ownerElement": [Circular
+                ],
+                "length": 1
+            },
+            "childNodes": {
+                "0": [Element
+                ],
+                "length": 1
+            },
+            "columnNumber": 177,
+            "firstChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 203,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "strong",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "strong",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "strong"
+            },
+            "lastChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 203,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "strong",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "strong",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "strong"
+            },
+            "lineNumber": 8,
+            "localName": "p",
+            "namespaceURI": "http://www.w3.org/1999/xhtml",
+            "nextSibling": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 292,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "ul",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "ul",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Circular
+                ],
+                "tagName": "ul"
+            },
+            "nodeName": "p",
+            "ownerDocument": {
+                "_inc": 1293,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Circular
+                ],
+                "columnNumber": 146,
+                "firstChild": [Circular
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "div",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "div",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "div"
+            },
+            "previousSibling": null,
+            "tagName": "p"
+        },
+        "1": {
+            "_nsMap": {},
+            "attributes": {
+                "0": [Attr
+                ],
+                "_ownerElement": [Circular
+                ],
+                "length": 1
+            },
+            "childNodes": {
+                "0": [Element
+                ],
+                "1": [Element
+                ],
+                "10": [Element
+                ],
+                "11": [Element
+                ],
+                "12": [Element
+                ],
+                "13": [Element
+                ],
+                "14": [Element
+                ],
+                "15": [Element
+                ],
+                "16": [Element
+                ],
+                "17": [Element
+                ],
+                "18": [Element
+                ],
+                "19": [Element
+                ],
+                "2": [Element
+                ],
+                "20": [Element
+                ],
+                "21": [Element
+                ],
+                "22": [Element
+                ],
+                "23": [Element
+                ],
+                "24": [Element
+                ],
+                "25": [Element
+                ],
+                "26": [Element
+                ],
+                "27": [Element
+                ],
+                "28": [Element
+                ],
+                "29": [Element
+                ],
+                "3": [Element
+                ],
+                "30": [Element
+                ],
+                "31": [Element
+                ],
+                "32": [Element
+                ],
+                "33": [Element
+                ],
+                "34": [Element
+                ],
+                "35": [Element
+                ],
+                "36": [Element
+                ],
+                "37": [Element
+                ],
+                "38": [Element
+                ],
+                "39": [Element
+                ],
+                "4": [Element
+                ],
+                "40": [Element
+                ],
+                "41": [Element
+                ],
+                "42": [Element
+                ],
+                "43": [Element
+                ],
+                "44": [Element
+                ],
+                "45": [Element
+                ],
+                "46": [Element
+                ],
+                "47": [Element
+                ],
+                "48": [Element
+                ],
+                "5": [Element
+                ],
+                "6": [Element
+                ],
+                "7": [Element
+                ],
+                "8": [Element
+                ],
+                "9": [Element
+                ],
+                "length": 49
+            },
+            "columnNumber": 292,
+            "firstChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 341,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "li",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "li",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "li"
+            },
+            "lastChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 10654,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "li",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "li",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "li"
+            },
+            "lineNumber": 8,
+            "localName": "ul",
+            "namespaceURI": "http://www.w3.org/1999/xhtml",
+            "nextSibling": null,
+            "nodeName": "ul",
+            "ownerDocument": {
+                "_inc": 1293,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Circular
+                ],
+                "columnNumber": 146,
+                "firstChild": [Element
+                ],
+                "lastChild": [Circular
+                ],
+                "lineNumber": 8,
+                "localName": "div",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "div",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "div"
+            },
+            "previousSibling": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 177,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "p",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Circular
+                ],
+                "nodeName": "p",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": null,
+                "tagName": "p"
+            },
+            "tagName": "ul"
+        },
+        "length": 2
+    },
+    {
+        "_nsMap": {},
+        "attributes": {
+            "0": {
+                "localName": "class",
+                "name": "class",
+                "namespaceURI": undefined,
+                "nodeName": "class",
+                "nodeValue": "start",
+                "ownerDocument": [Document
+                ],
+                "ownerElement": [Circular
+                ],
+                "specified": true,
+                "value": "start"
+            },
+            "_ownerElement": [Circular
+            ],
+            "length": 1
+        },
+        "childNodes": {
+            "0": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 359,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "a",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "a",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "a"
+            },
+            "1": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 503,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "span",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "span",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "span"
+            },
+            "length": 2
+        },
+        "columnNumber": 341,
+        "firstChild": {
+            "_nsMap": {},
+            "attributes": {
+                "0": [Attr
+                ],
+                "1": [Attr
+                ],
+                "_ownerElement": [Circular
+                ],
+                "length": 2
+            },
+            "childNodes": {
+                "0": [Text
+                ],
+                "length": 1
+            },
+            "columnNumber": 359,
+            "firstChild": {
+                "columnNumber": 474,
+                "data": "BISDORF DR + BISDORF BLDG",
+                "length": 25,
+                "lineNumber": 8,
+                "nextSibling": null,
+                "nodeValue": "BISDORF DR + BISDORF BLDG",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null
+            },
+            "lastChild": {
+                "columnNumber": 474,
+                "data": "BISDORF DR + BISDORF BLDG",
+                "length": 25,
+                "lineNumber": 8,
+                "nextSibling": null,
+                "nodeValue": "BISDORF DR + BISDORF BLDG",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null
+            },
+            "lineNumber": 8,
+            "localName": "a",
+            "namespaceURI": "http://www.w3.org/1999/xhtml",
+            "nextSibling": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 503,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "span",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "span",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [Circular
+                ],
+                "tagName": "span"
+            },
+            "nodeName": "a",
+            "ownerDocument": {
+                "_inc": 1301,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": [Circular
+            ],
+            "previousSibling": null,
+            "tagName": "a"
+        },
+        "lastChild": {
+            "_nsMap": {},
+            "attributes": {
+                "0": [Attr
+                ],
+                "1": [Attr
+                ],
+                "_ownerElement": [Circular
+                ],
+                "length": 2
+            },
+            "childNodes": {
+                "0": [Text
+                ],
+                "length": 1
+            },
+            "columnNumber": 503,
+            "firstChild": {
+                "columnNumber": 539,
+                "data": "&nbsp",
+                "length": 5,
+                "lineNumber": 8,
+                "nextSibling": null,
+                "nodeValue": "&nbsp",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null
+            },
+            "lastChild": {
+                "columnNumber": 539,
+                "data": "&nbsp",
+                "length": 5,
+                "lineNumber": 8,
+                "nextSibling": null,
+                "nodeValue": "&nbsp",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null
+            },
+            "lineNumber": 8,
+            "localName": "span",
+            "namespaceURI": "http://www.w3.org/1999/xhtml",
+            "nextSibling": null,
+            "nodeName": "span",
+            "ownerDocument": {
+                "_inc": 1301,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": [Circular
+            ],
+            "previousSibling": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 359,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "a",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Circular
+                ],
+                "nodeName": "a",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "a"
+            },
+            "tagName": "span"
+        },
+        "lineNumber": 8,
+        "localName": "li",
+        "namespaceURI": "http://www.w3.org/1999/xhtml",
+        "nextSibling": {
+            "_nsMap": {},
+            "attributes": {
+                "0": [Attr
+                ],
+                "_ownerElement": [Circular
+                ],
+                "length": 1
+            },
+            "childNodes": {
+                "0": [Element
+                ],
+                "1": [Element
+                ],
+                "length": 2
+            },
+            "columnNumber": 556,
+            "firstChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 575,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "a",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "a",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "a"
+            },
+            "lastChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 725,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "span",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "span",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "span"
+            },
+            "lineNumber": 8,
+            "localName": "li",
+            "namespaceURI": "http://www.w3.org/1999/xhtml",
+            "nextSibling": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 778,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "li",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "li",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Circular
+                ],
+                "tagName": "li"
+            },
+            "nodeName": "li",
+            "ownerDocument": {
+                "_inc": 1301,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 292,
+                "firstChild": [Circular
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "ul",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "ul",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "ul"
+            },
+            "previousSibling": [Circular
+            ],
+            "tagName": "li"
+        },
+        "nodeName": "li",
+        "ownerDocument": {
+            "_inc": 1301,
+            "childNodes": {
+                "0": [ProcessingInstruction
+                ],
+                "1": [Element
+                ],
+                "length": 2
+            },
+            "doctype": null,
+            "documentElement": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 1,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 2,
+                "localName": "html",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "html",
+                "ownerDocument": [Circular
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [ProcessingInstruction
+                ],
+                "tagName": "html"
+            },
+            "documentURI": undefined,
+            "firstChild": {
+                "columnNumber": 1,
+                "data": "version=\"1.0\" encoding=\"UTF-8\"",
+                "lineNumber": 1,
+                "nextSibling": [Element
+                ],
+                "nodeValue": "version=\"1.0\" encoding=\"UTF-8\"",
+                "ownerDocument": [Circular
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "xml",
+                "target": "xml"
+            },
+            "implementation": {
+                "_features": [Object
+                ]
+            },
+            "lastChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 1,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 2,
+                "localName": "html",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "html",
+                "ownerDocument": [Circular
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [ProcessingInstruction
+                ],
+                "tagName": "html"
+            }
+        },
+        "parentNode": {
+            "_nsMap": {},
+            "attributes": {
+                "0": [Attr
+                ],
+                "_ownerElement": [Circular
+                ],
+                "length": 1
+            },
+            "childNodes": {
+                "0": [Circular
+                ],
+                "1": [Element
+                ],
+                "10": [Element
+                ],
+                "11": [Element
+                ],
+                "12": [Element
+                ],
+                "13": [Element
+                ],
+                "14": [Element
+                ],
+                "15": [Element
+                ],
+                "16": [Element
+                ],
+                "17": [Element
+                ],
+                "18": [Element
+                ],
+                "19": [Element
+                ],
+                "2": [Element
+                ],
+                "20": [Element
+                ],
+                "21": [Element
+                ],
+                "22": [Element
+                ],
+                "23": [Element
+                ],
+                "24": [Element
+                ],
+                "25": [Element
+                ],
+                "26": [Element
+                ],
+                "27": [Element
+                ],
+                "28": [Element
+                ],
+                "29": [Element
+                ],
+                "3": [Element
+                ],
+                "30": [Element
+                ],
+                "31": [Element
+                ],
+                "32": [Element
+                ],
+                "33": [Element
+                ],
+                "34": [Element
+                ],
+                "35": [Element
+                ],
+                "36": [Element
+                ],
+                "37": [Element
+                ],
+                "38": [Element
+                ],
+                "39": [Element
+                ],
+                "4": [Element
+                ],
+                "40": [Element
+                ],
+                "41": [Element
+                ],
+                "42": [Element
+                ],
+                "43": [Element
+                ],
+                "44": [Element
+                ],
+                "45": [Element
+                ],
+                "46": [Element
+                ],
+                "47": [Element
+                ],
+                "48": [Element
+                ],
+                "5": [Element
+                ],
+                "6": [Element
+                ],
+                "7": [Element
+                ],
+                "8": [Element
+                ],
+                "9": [Element
+                ],
+                "length": 49
+            },
+            "columnNumber": 292,
+            "firstChild": [Circular
+            ],
+            "lastChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 10598,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "li",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "li",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "li"
+            },
+            "lineNumber": 8,
+            "localName": "ul",
+            "namespaceURI": "http://www.w3.org/1999/xhtml",
+            "nextSibling": null,
+            "nodeName": "ul",
+            "ownerDocument": {
+                "_inc": 1301,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 146,
+                "firstChild": [Element
+                ],
+                "lastChild": [Circular
+                ],
+                "lineNumber": 8,
+                "localName": "div",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "div",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "div"
+            },
+            "previousSibling": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 177,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "p",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Circular
+                ],
+                "nodeName": "p",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": null,
+                "tagName": "p"
+            },
+            "tagName": "ul"
+        },
+        "previousSibling": null,
+        "tagName": "li"
+    },
+    {
+        "_nsMap": {},
+        "attributes": {
+            "0": {
+                "localName": "href",
+                "name": "href",
+                "namespaceURI": undefined,
+                "nodeName": "href",
+                "nodeValue": "/tracker/m/index?q=4001025",
+                "ownerDocument": [Document
+                ],
+                "ownerElement": [Circular
+                ],
+                "specified": true,
+                "value": "/tracker/m/index?q=4001025"
+            },
+            "1": {
+                "localName": "title",
+                "name": "title",
+                "namespaceURI": undefined,
+                "nodeName": "title",
+                "nodeValue": "BISDORF DR + BISDORF BLDG",
+                "ownerDocument": [Document
+                ],
+                "ownerElement": [Circular
+                ],
+                "specified": true,
+                "value": "BISDORF DR + BISDORF BLDG"
+            },
+            "_ownerElement": [Circular
+            ],
+            "length": 2
+        },
+        "childNodes": {
+            "0": {
+                "columnNumber": 430,
+                "data": "BISDORF DR + BISDORF BLDG",
+                "length": 25,
+                "lineNumber": 8,
+                "nextSibling": null,
+                "nodeValue": "BISDORF DR + BISDORF BLDG",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null
+            },
+            "length": 1
+        },
+        "columnNumber": 359,
+        "firstChild": {
+            "columnNumber": 430,
+            "data": "BISDORF DR + BISDORF BLDG",
+            "length": 25,
+            "lineNumber": 8,
+            "nextSibling": null,
+            "nodeValue": "BISDORF DR + BISDORF BLDG",
+            "ownerDocument": {
+                "_inc": 1299,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": [Circular
+            ],
+            "previousSibling": null
+        },
+        "lastChild": {
+            "columnNumber": 430,
+            "data": "BISDORF DR + BISDORF BLDG",
+            "length": 25,
+            "lineNumber": 8,
+            "nextSibling": null,
+            "nodeValue": "BISDORF DR + BISDORF BLDG",
+            "ownerDocument": {
+                "_inc": 1299,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": [Circular
+            ],
+            "previousSibling": null
+        },
+        "lineNumber": 8,
+        "localName": "a",
+        "namespaceURI": "http://www.w3.org/1999/xhtml",
+        "nextSibling": {
+            "_nsMap": {},
+            "attributes": {
+                "0": [Attr
+                ],
+                "1": [Attr
+                ],
+                "_ownerElement": [Circular
+                ],
+                "length": 2
+            },
+            "childNodes": {
+                "0": [Text
+                ],
+                "length": 1
+            },
+            "columnNumber": 459,
+            "firstChild": {
+                "columnNumber": 495,
+                "data": "&nbsp",
+                "length": 5,
+                "lineNumber": 8,
+                "nextSibling": null,
+                "nodeValue": "&nbsp",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null
+            },
+            "lastChild": {
+                "columnNumber": 495,
+                "data": "&nbsp",
+                "length": 5,
+                "lineNumber": 8,
+                "nextSibling": null,
+                "nodeValue": "&nbsp",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null
+            },
+            "lineNumber": 8,
+            "localName": "span",
+            "namespaceURI": "http://www.w3.org/1999/xhtml",
+            "nextSibling": null,
+            "nodeName": "span",
+            "ownerDocument": {
+                "_inc": 1299,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 341,
+                "firstChild": [Circular
+                ],
+                "lastChild": [Circular
+                ],
+                "lineNumber": 8,
+                "localName": "li",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "li",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": null,
+                "tagName": "li"
+            },
+            "previousSibling": [Circular
+            ],
+            "tagName": "span"
+        },
+        "nodeName": "a",
+        "ownerDocument": {
+            "_inc": 1299,
+            "childNodes": {
+                "0": [ProcessingInstruction
+                ],
+                "1": [Element
+                ],
+                "length": 2
+            },
+            "doctype": null,
+            "documentElement": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 1,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 2,
+                "localName": "html",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "html",
+                "ownerDocument": [Circular
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [ProcessingInstruction
+                ],
+                "tagName": "html"
+            },
+            "documentURI": undefined,
+            "firstChild": {
+                "columnNumber": 1,
+                "data": "version=\"1.0\" encoding=\"UTF-8\"",
+                "lineNumber": 1,
+                "nextSibling": [Element
+                ],
+                "nodeValue": "version=\"1.0\" encoding=\"UTF-8\"",
+                "ownerDocument": [Circular
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": null,
+                "tagName": "xml",
+                "target": "xml"
+            },
+            "implementation": {
+                "_features": [Object
+                ]
+            },
+            "lastChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 1,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 2,
+                "localName": "html",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "html",
+                "ownerDocument": [Circular
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [ProcessingInstruction
+                ],
+                "tagName": "html"
+            }
+        },
+        "parentNode": {
+            "_nsMap": {},
+            "attributes": {
+                "0": [Attr
+                ],
+                "_ownerElement": [Circular
+                ],
+                "length": 1
+            },
+            "childNodes": {
+                "0": [Circular
+                ],
+                "1": [Element
+                ],
+                "length": 2
+            },
+            "columnNumber": 341,
+            "firstChild": [Circular
+            ],
+            "lastChild": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 459,
+                "firstChild": [Text
+                ],
+                "lastChild": [Text
+                ],
+                "lineNumber": 8,
+                "localName": "span",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "span",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Circular
+                ],
+                "previousSibling": [Circular
+                ],
+                "tagName": "span"
+            },
+            "lineNumber": 8,
+            "localName": "li",
+            "namespaceURI": "http://www.w3.org/1999/xhtml",
+            "nextSibling": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 512,
+                "firstChild": [Element
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "li",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": [Element
+                ],
+                "nodeName": "li",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Circular
+                ],
+                "tagName": "li"
+            },
+            "nodeName": "li",
+            "ownerDocument": {
+                "_inc": 1299,
+                "childNodes": [Object
+                ],
+                "doctype": null,
+                "documentElement": [Element
+                ],
+                "documentURI": undefined,
+                "firstChild": [ProcessingInstruction
+                ],
+                "implementation": [Object
+                ],
+                "lastChild": [Element
+                ]
+            },
+            "parentNode": {
+                "_nsMap": [Object
+                ],
+                "attributes": [Object
+                ],
+                "childNodes": [Object
+                ],
+                "columnNumber": 292,
+                "firstChild": [Circular
+                ],
+                "lastChild": [Element
+                ],
+                "lineNumber": 8,
+                "localName": "ul",
+                "namespaceURI": "http://www.w3.org/1999/xhtml",
+                "nextSibling": null,
+                "nodeName": "ul",
+                "ownerDocument": [Document
+                ],
+                "parentNode": [Element
+                ],
+                "previousSibling": [Element
+                ],
+                "tagName": "ul"
+            },
+            "previousSibling": null,
+            "tagName": "li"
+        },
+        "previousSibling": null,
+        "tagName": "a"
+    }
+]

@@ -28,16 +28,16 @@ function GetCheckBoxes(props) {
             title={name}
             style={styles.checkBox} 
             containerStyle={styles.checkBoxContainer}
-            checkedIcon={<Icon type="ionicon" name="checkbox-outline" color={styles.heartyBlue}></Icon>}
-            uncheckedIcon={<Icon type="ionicon" name="square-outline" color={styles.heartyBlue}></Icon>}
+            checkedIcon={<Icon type="ionicon" name="checkmark-circle-outline" color={styles.heartyBlue}></Icon>}
+            uncheckedIcon={<Icon type="ionicon" name="ellipse-outline" color={styles.heartyBlue}></Icon>}
             checked={favorites[name] == "true" || favorites[name] == true}
             key={name}
             onPress={() => {
-                if(favorites[name] == undefined) {
+                if(favorites[name] == undefined || favorites[name] == "false" || favorites[name] == false) {
                     setFavorites({...favorites, [name]: true});
                 }
                 else {
-                    setFavorites({...favorites, [name]: !favorites[name]});
+                    setFavorites({...favorites, [name]: false});
                 }
                 
             }}>

@@ -28,11 +28,22 @@ $newLavender: #C4B0FF;
     margin: 5px;
     width: 150px;
     border-radius: 15px;
-    background-color: $cornflower;
+    background-color: $thursday;
 }
 
 .buttonTitle {
     color: $offWhite;
+}
+
+.stopButton {
+    @extend .button;
+    width: 300;
+    margin: 2px;
+}
+
+.stopButtonTitle {
+    @extend .buttonTitle;
+    font-size: 15;
 }
 
 .headerTitle {
@@ -100,4 +111,12 @@ $newLavender: #C4B0FF;
     font-weight: bold;
     margin-top: 10px;
     color: $darkGrey;
+}
+
+.scrollView {
+    width: 100%;
+}
+
+.scrollViewContainer {
+    align-items: center;
 }
