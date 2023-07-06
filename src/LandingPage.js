@@ -78,7 +78,7 @@ const Stack = createStackNavigator();
 
 export default function Home({navigation}) {
     return (
-        <Stack.Navigator screenOptions={{headerShown: false}}>
+        <Stack.Navigator screenOptions={{headerShown: false, detachPreviousScreen: false}}>
             <Stack.Screen name="Landing" component={LandingPage}></Stack.Screen>
             <Stack.Screen name="Bus View" component={BusView}></Stack.Screen>
             <Stack.Screen name="Stop View" component={StopView}></Stack.Screen>

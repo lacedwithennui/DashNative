@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="width=device-width,initial-scale=1.0,user-scalable=yes" name="viewport" />
+    <title>DASH: Route 33</title>
+    <link type="image/x-icon" href="http://dashbus.com/favicon.ico" rel="shortcut icon" />
+    <link media="screen" type="text/css" href="https://dashbus.obaweb.org/tracker/css/mobile/mobile-shared.css?v=%24%7B%3Agit.commit.id%7D"
+        rel="stylesheet" />
+    <link media="screen" type="text/css" href="https://dashbus.obaweb.org/tracker/css/mobile/mobile.css?v=%24%7B%3Agit.commit.id%7D"
+        rel="stylesheet" />
+    <link media="screen" type="text/css" href="https://dashbus.obaweb.org/tracker/css/mobile/branding.css?v=%24%7B%3Agit.commit.id%7D"
+        rel="stylesheet" />
+    <script src="https://dashbus.obaweb.org/tracker/js/biblio/jquery.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/oba/m/Config.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <link href="http://fonts.googleapis.com/css?family=Lato%3A400%2C300%2C700" type="text/css" rel="stylesheet" />
+    <link media="screen,print" type="text/css" href="https://dashbus.obaweb.org/tracker/css/map/map.css?v=%24%7B%3Agit.commit.id%7D"
+        rel="stylesheet" />
+    <link media="screen,print" type="text/css" href="https://dashbus.obaweb.org/tracker/css/map/popup.css?v=%24%7B%3Agit.commit.id%7D"
+        rel="stylesheet" />
+    <link media="screen,print" type="text/css" href="https://dashbus.obaweb.org/tracker/css/map/wizard.css?v=%24%7B%3Agit.commit.id%7D"
+        rel="stylesheet" />
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?v=3&amp;client=&amp;channel=&amp;key=AIzaSyBGrgsdf3xkXHD93MjkEPya3CIYnzU5hYM&amp;sensor=false"></script>
+    <script src="https://dashbus.obaweb.org/tracker/api/config?v=1688151636194" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/biblio/jquery.ui.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/biblio/jquery.history.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/biblio/markerManager.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/biblio/rgbcolor.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/biblio/dateFormat.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/oba/m/Mobile.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/biblio/popover.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/oba/map/Wizard.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/oba/Util.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/oba/map/GoogleMapWrapper.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/oba/map/Popups.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/oba/map/RouteMap.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <script src="https://dashbus.obaweb.org/tracker/js/biblio/markerAnimate.js?v=%24%7B%3Agit.commit.id%7D" type="text/javascript"></script>
+    <link media="screen" type="text/css" href="https://dashbus.obaweb.org/tracker/m/color-stylesheet?colors=00e0ca&amp;v=1688151636194"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div id="topbar">
+        <div id="topbar-top"></div>
+        <div id="topbar-bottom">
+            <div class="logo"><a href="https://dashbus.obaweb.org/tracker/m/index"><img alt="Metro logo"
+                        src="https://dashbus.obaweb.org/tracker/css/img/onebusaway-dash-white.png" /></a></div>
+        </div>
+    </div>
+    <div style="display:none" id="debug">
+        <p>resultType: RouteResult</p>
+        <p>matches: 1</p>
+        <p>suggestions: 0</p>
+        <p>routeFilter: []</p>
+        <p>lat/lon: / </p>
+        <p>Geocode: false</p>
+        <p>Hint: tryAsRoute</p>
+        <p>q: 71_33</p>
+        <p>l: </p>
+        <p>t: </p>
+    </div>
+    <div id="mainbox">
+        <div id="searchPanel">
+            <form id="index" name="index" action="https://dashbus.obaweb.org/tracker/m/index" method="GET"><label class="obscure"
+                    for="bustimesearch">Enter search terms</label><input aria-label="Enter search: " value="71_33"
+                    class="q" name="q" id="bustimesearch" type="text" /><input alt="search" id="submitButton"
+                    value="Find" class="s" type="submit" /><input id="l" name="l" type="hidden" /><input id="t" name="t"
+                    type="hidden" /></form>
+
+
+        </div>
+        <div id="refresh"><a href="https://dashbus.obaweb.org/tracker/m/index?q=71_33&amp;l=&amp;t=&amp;cacheBreaker=1688151636195#top">Refresh
+                (<strong>Updated 3:00:36 PM</strong>)</a></div>
+        <div id="content">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <h3>Route:</h3>
+            <div class="route">
+                <p class="routeHeader routeHeaderColor00e0ca"><strong>33&nbsp;King St Metro &ndash; Commonwealth Ave
+                        &ndash; Mt Vernon Ave &ndash; Potomac Yard Ctr</strong></p>
+                <p class="routeDescription"></p>
+                <ul>
+                    <li class="direction-jump">Choose your direction:</li>
+                    <li class="direction-li"><a class="direction-link" href="#71_33__0">
+                            to&nbsp;King St Metro via Mt Vernon Ave</a></li>
+                    <li class="direction-li"><a class="direction-link" href="#71_33__1">
+                            to&nbsp;Potomac Yard Ctr via Mt Vernon Ave</a></li>
+                </ul>
+            </div><a tabindex="0" class="directionAnchor" name="71_33__0">&nbsp;</a>
+            <div class="directionForRoute">
+                <p class="directionTitle"><strong>33&nbsp;to&nbsp;King St Metro via Mt Vernon Ave</strong></p>
+                <ul class="stopsOnRoute stopsOnRouteColor00e0ca">
+                    <li class="start"><strong><a href="https://dashbus.obaweb.org/tracker/m/index?q=4009982" title="">Potomac Yard Archway (Old
+                                Navy)</a></strong>
+                        <ol class="arrivalsOnRoute">
+                            <li><strong>at stop</strong></li>
+                        </ol><span class="anchor" id="0-71_917">&nbsp</span>
+                    </li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000473" title="N Potomac Yard Center">N Potomac Yard
+                            Center</a><span class="anchor" id="0-71_263">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4009987"
+                            title="Potomac Yard Metro Station - Bus Bay A">Potomac Yard Metro Station - Bus Bay
+                            A</a><span class="anchor" id="0-71_922">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4001111" title="E GLEBE RD + POTOMAC AVE">E GLEBE RD
+                            + POTOMAC AVE</a><span class="anchor" id="0-1_27755">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4001047" title="E Glebe Rd + Richmond Hwy">E Glebe Rd
+                            + Richmond Hwy</a><span class="anchor" id="0-71_615">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000563" title="E Reed Ave + Richmond Hwy">E Reed Ave
+                            + Richmond Hwy</a><span class="anchor" id="0-71_335">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000565" title="E Reed Ave + Evans Ln">E Reed Ave +
+                            Evans Ln</a><span class="anchor" id="0-71_337">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000560" title="W Reed Ave + Commonwealth Ave">W Reed
+                            Ave + Commonwealth Ave</a><span class="anchor" id="0-71_332">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000863" title="W Reed Ave + Mt Vernon Ave">W Reed
+                            Ave + Mt Vernon Ave</a><span class="anchor" id="0-71_553">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000566" title="Mt Vernon Ave + W Glebe Rd">Mt Vernon
+                            Ave + W Glebe Rd</a><span class="anchor" id="0-71_338">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000357" title="MT VERNON AVE + KENNEDY ST">MT VERNON
+                            AVE + KENNEDY ST</a><span class="anchor" id="0-1_18754">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000331" title="MOUNT VERNON AVE + RAYMOND AVE">MOUNT
+                            VERNON AVE + RAYMOND AVE</a><span class="anchor" id="0-1_1798">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000318" title="MT VERNON AVE + E UHLER AVE">MT
+                            VERNON AVE + E UHLER AVE</a><span class="anchor" id="0-1_1717">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000311" title="MT VERNON AVE + E OXFORD AVE">MT
+                            VERNON AVE + E OXFORD AVE</a><span class="anchor" id="0-1_1691">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000296"
+                            title="MOUNT VERNON AVE + E CUSTIS AVE">MOUNT VERNON AVE + E CUSTIS AVE</a><span
+                            class="anchor" id="0-1_1622">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000272"
+                            title="MOUNT VERNON AVE + E BELLEFONTE AVE">MOUNT VERNON AVE + E BELLEFONTE AVE</a><span
+                            class="anchor" id="0-1_1523">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000249" title="MOUNT VERNON AVE + E MASON AVE">MOUNT
+                            VERNON AVE + E MASON AVE</a><span class="anchor" id="0-1_1425">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000534" title="E Monroe Ave + Newton St">E Monroe
+                            Ave + Newton St</a><span class="anchor" id="0-71_314">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000536"
+                            title="Commonwealth Ave + W Nelson Ave">Commonwealth Ave + W Nelson Ave</a><span
+                            class="anchor" id="0-71_316">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000997"
+                            title="Commonwealth Ave + Glendale Ave">Commonwealth Ave + Glendale Ave</a><span
+                            class="anchor" id="0-71_597">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000538"
+                            title="Commonwealth Ave + W Braddock Rd">Commonwealth Ave + W Braddock Rd</a><span
+                            class="anchor" id="0-71_318">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000540"
+                            title="Commonwealth Ave + W Chapman St">Commonwealth Ave + W Chapman St</a><span
+                            class="anchor" id="0-71_320">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000619"
+                            title="Commonwealth Ave + W Maple St">Commonwealth Ave + W Maple St</a><span class="anchor"
+                            id="0-71_356">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000618"
+                            title="Commonwealth Ave + Sunset Dr">Commonwealth Ave + Sunset Dr</a><span class="anchor"
+                            id="0-71_355">&nbsp</span></li>
+                    <li class="end"><strong><a href="https://dashbus.obaweb.org/tracker/m/index?q=4001125" title="">King St Metro - Bay
+                                H</a></strong>
+                        <ol class="arrivalsOnRoute">
+                            <li></li>
+                            <li><strong>approaching</strong></li>
+                        </ol><span class="anchor" id="0-71_850">&nbsp</span>
+                    </li>
+                </ul>
+            </div><a tabindex="0" class="directionAnchor" name="71_33__1">&nbsp;</a>
+            <div class="directionForRoute">
+                <p class="directionTitle"><strong>33&nbsp;to&nbsp;Potomac Yard Ctr via Mt Vernon Ave</strong></p>
+                <ul class="stopsOnRoute stopsOnRouteColor00e0ca">
+                    <li class="start"><strong><a href="https://dashbus.obaweb.org/tracker/m/index?q=4001125" title="">King St Metro - Bay
+                                H</a></strong>
+                        <ol class="arrivalsOnRoute">
+                            <li></li>
+                            <li><strong>approaching</strong></li>
+                        </ol><span class="anchor" id="1-71_850">&nbsp</span>
+                    </li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000509"
+                            title="Commonwealth Ave + Sunset Dr">Commonwealth Ave + Sunset Dr</a><span class="anchor"
+                            id="1-71_292">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000556"
+                            title="Commonwealth Ave + E Maple St">Commonwealth Ave + E Maple St</a><span class="anchor"
+                            id="1-71_330">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000539"
+                            title="Commonwealth Ave + E Chapman St">Commonwealth Ave + E Chapman St</a><span
+                            class="anchor" id="1-71_319">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000537"
+                            title="Commonwealth Ave + E Braddock Rd">Commonwealth Ave + E Braddock Rd</a><span
+                            class="anchor" id="1-71_317">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000998"
+                            title="Commonwealth Ave + Luray Ave">Commonwealth Ave + Luray Ave</a><span class="anchor"
+                            id="1-71_598">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000535"
+                            title="Commonwealth Ave + E Nelson Ave">Commonwealth Ave + E Nelson Ave</a><span
+                            class="anchor" id="1-71_315">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000533" title="Monroe Ave + Wayne St">Monroe Ave +
+                            Wayne St</a><span class="anchor" id="1-71_313">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000252" title="MOUNT VERNON AVE + E MASON AVE">MOUNT
+                            VERNON AVE + E MASON AVE</a><span class="anchor" id="1-1_1438">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000266"
+                            title="MOUNT VERNON AVE + E BELLEFONTE AVE">MOUNT VERNON AVE + E BELLEFONTE AVE</a><span
+                            class="anchor" id="1-1_1509">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000279"
+                            title="MOUNT VERNON AVE + E WINDSOR AVE">MOUNT VERNON AVE + E WINDSOR AVE</a><span
+                            class="anchor" id="1-1_1570">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000309" title="MT VERNON AVE + E OXFORD AVE">MT
+                            VERNON AVE + E OXFORD AVE</a><span class="anchor" id="1-1_1678">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000322" title="MT VERNON AVE + STEWART AVE">MT
+                            VERNON AVE + STEWART AVE</a><span class="anchor" id="1-1_1731">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000329"
+                            title="MOUNT VERNON AVE + E RANDOLPH AVE">MOUNT VERNON AVE + E RANDOLPH AVE</a><span
+                            class="anchor" id="1-1_1781">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000333" title="MOUNT VERNON AVE + HUME AVE">MOUNT
+                            VERNON AVE + HUME AVE</a><span class="anchor" id="1-1_1822">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000354" title="MOUNT VERNON AVE + KENNEDY ST">MOUNT
+                            VERNON AVE + KENNEDY ST</a><span class="anchor" id="1-1_1957">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000368" title="MT VERNON AVE + HERBERT ST">MT VERNON
+                            AVE + HERBERT ST</a><span class="anchor" id="1-1_2020">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000383" title="MT VERNON AVE + W GLEBE RD">MT VERNON
+                            AVE + W GLEBE RD</a><span class="anchor" id="1-1_2120">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000559" title="W Reed Ave + Edison St">W Reed Ave +
+                            Edison St</a><span class="anchor" id="1-71_331">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000561" title="W Reed Ave + Commonwealth Ave">W Reed
+                            Ave + Commonwealth Ave</a><span class="anchor" id="1-71_333">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000564" title="E Reed Ave + Evans Ln">E Reed Ave +
+                            Evans Ln</a><span class="anchor" id="1-71_336">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4000562" title="E Reed Ave + Richmond Hwy">E Reed Ave
+                            + Richmond Hwy</a><span class="anchor" id="1-71_334">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4001065" title="E Glebe Rd + Richmond Hwy">E Glebe Rd
+                            + Richmond Hwy</a><span class="anchor" id="1-71_796">&nbsp</span></li>
+                    <li class="middle"><a href="https://dashbus.obaweb.org/tracker/m/index?q=4001112" title="E Glebe Rd EB + Potomac Ave">E Glebe
+                            Rd EB + Potomac Ave</a><span class="anchor" id="1-71_915">&nbsp</span></li>
+                    <li class="middle"><strong><a href="https://dashbus.obaweb.org/tracker/m/index?q=4009981" title="">Potomac Yard Metro Station
+                                - Bus Bay B</a></strong>
+                        <ol class="arrivalsOnRoute">
+                            <li><strong>
+                                    Less Than 1 stop away</strong>
+                            </li>
+                        </ol><span class="anchor" id="1-71_916">&nbsp</span>
+                    </li>
+                    <li class="end"><strong><a href="https://dashbus.obaweb.org/tracker/m/index?q=4009982" title="">Potomac Yard Archway (Old
+                                Navy)</a></strong>
+                        <ol class="arrivalsOnRoute">
+                            <li><strong>at stop</strong></li>
+                        </ol><span class="anchor" id="1-71_917">&nbsp</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p><a href="https://dashbus.obaweb.org/tracker/wiki/DASHFAQ/Index">Help</a> |
+
+            <a href="https://dashbus.obaweb.org/tracker/wiki/DASHDevelopers/Index">Developers</a> |
+
+            <a href="https://dashbus.obaweb.org/tracker/index">Desktop Site</a> |
+
+            <a href="https://www.dashbus.com/contact-us">Contact</a> |
+
+            <a href="https://www.dashbus.com/">DASH Home</a>
+        </p>
+    </div>
+    <script type="text/javascript">
+        _gaq.push(['_setAccount', "UA-104020128-1"]);
+        _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackEvent', "Mobile Web", "Route Search", "71_33 [M: 1 S: 0]"]);
+        (function () { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+    </script>
+</body>
+
+</html>

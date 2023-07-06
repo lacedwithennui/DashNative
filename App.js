@@ -5,6 +5,8 @@ import /* LandingPage, */ Home from "./src/LandingPage";
 import Settings from "./src/Settings";
 import AllBusesNav from "./src/AllBuses"
 import styles from "./src/styles.scss";
+import colors from "./src/styles.scss"
+import WebView from "react-native-webview";
 // import Home from "./src/Home";
 
 const Tab = createBottomTabNavigator();
@@ -12,13 +14,14 @@ const Tab = createBottomTabNavigator();
 export default function App() {
     return (
         <NavigationContainer>
+        
             <Tab.Navigator
                 screenOptions={{
-                    headerStyle: {backgroundColor: styles.cornflower},
-                    headerTitleStyle: {color: styles.offWhite, fontWeight: "bold"},
-                    tabBarStyle: {backgroundColor: styles.cornflower},
-                    tabBarActiveTintColor: styles.offWhite,
-                    tabBarInactiveTintColor: styles.thursday,
+                    headerStyle: {backgroundColor: colors.heartyBlue},
+                    headerTitleStyle: {color: colors.offWhite, fontWeight: "bold"},
+                    tabBarStyle: {backgroundColor: colors.heartyBlue},
+                    tabBarActiveTintColor: colors.offWhite,
+                    tabBarInactiveTintColor: colors.dashYellow,
                     unmountOnBlur: true
                 }}>
                 <Tab.Screen options={{tabBarIcon: ({color, size}) => <Icon name="home-sharp" type="ionicon" color={color} />}} name="Home" component={Home} />

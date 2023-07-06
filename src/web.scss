@@ -1,0 +1,43 @@
+@import "./styles.scss";
+
+body {
+    padding-top: 15px;
+    width: 100%
+}
+
+#topbar, #footer, #searchPanel, .direction-jump, #mapExpander {
+    display: none;
+}
+
+a {
+    color: $heartyBlue;
+    font-weight: bold;
+}
+
+.directionForRoute, .route {
+    margin-top: 0px;
+}
+
+.directionAnchor {
+    display: block;
+    height: 0px;
+    width: 0px;
+}
+
+.stopHeader {
+    background-color: transparent;
+}
+
+#refresh {
+    background: $heartyBlue;
+    box-shadow: none;
+    border: none;
+}
+
+.stopsOnRoute {
+    background-color: $heartyBlue;
+}
+
+.routeHeader {
+    border: none;
+}

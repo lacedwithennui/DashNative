@@ -39,9 +39,18 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
+			<key>https://dashbus.obaweb.org</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
 			<key>localhost</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
 				<true/>
 			</dict>
 		</dict>
@@ -50,6 +59,7 @@
 	<string>SplashScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
+		<string>wifi</string>
 		<string>armv7</string>
 	</array>
 	<key>UIStatusBarStyle</key>

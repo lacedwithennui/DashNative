@@ -1,48 +1,26 @@
-$offWhite: #fcfcfc;
-$lightPurple: #994be3;
-$deepPurple: #4a1e9e;
-$lavender: #ddcbff;
-$yellow: #e2bf2b;
-$weirdBeige: #9e861e;
-$darkGrey: #404040;
-$heartyBlue: #11009E;
-$cornflower: #4942E4;
-$thursday: #8696FE;
-$newLavender: #C4B0FF;
-
-:export {
-    offWhite: $offWhite;
-    lightPurple: $lightPurple;
-    deepPurple: $deepPurple;
-    lavender: $lavender;
-    yellow: $yellow;
-    weirdBeige: $weirdBeige;
-    darkGrey: $darkGrey;
-    heartyBlue: $heartyBlue;
-    cornflower: $cornflower;
-    thursday: $thursday;
-    newLavender: $newLavender;
-}
+@import "./colors.scss";
 
 .button {
     margin: 5px;
     width: 150px;
     border-radius: 15px;
-    background-color: $thursday;
+    background-color: $dashYellow;
 }
 
 .buttonTitle {
-    color: $offWhite;
+    color: $heartyBlue;
 }
 
 .stopButton {
-    @extend .button;
-    width: 300;
+    // @extend .button;
+    width: 100%;
     margin: 2px;
+    justify-content: flex-start;
 }
 
 .stopButtonTitle {
-    @extend .buttonTitle;
+    // @extend .buttonTitle;
+    text-align: left;
     font-size: 15;
 }
 
@@ -109,7 +87,8 @@ $newLavender: #C4B0FF;
 .label {
     font-size: 20;
     font-weight: bold;
-    margin-top: 10px;
+    // margin-top: 10px;
+    margin: 10px 10px;
     color: $darkGrey;
 }
 
@@ -118,5 +97,6 @@ $newLavender: #C4B0FF;
 }
 
 .scrollViewContainer {
-    align-items: center;
+    // align-items: center;
+    padding: 2px;
 }
